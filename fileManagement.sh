@@ -1,5 +1,7 @@
 #!/bin/bash
 
+repertoire_racine="${1:-.}"
+
 repertoires=(
     "$repertoire_racine/personnages"
     "$repertoire_racine/personnages/mascottes"
